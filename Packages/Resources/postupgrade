@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+# Copyright 2006-2011 Aoren LLC. All rights reserved.
+
+`open "/Library/Application Support/Language Aid/Language Aid.app"`;
+sleep(1);
+`open "/Library/PreferencePanes/Language Aid.prefPane"`;
+
+exit 0

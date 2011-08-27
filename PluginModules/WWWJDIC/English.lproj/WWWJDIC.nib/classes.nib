@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LAOtherPlugin; LANGUAGE = ObjC; SUPERCLASS = LAPlugin; }, 
+        {
+            CLASS = LAPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {UI = NSView; inspectorWindow = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = LAWebServicePlugin; LANGUAGE = ObjC; SUPERCLASS = LAPlugin; }, 
+        {
+            ACTIONS = {changeDictionary = id; changeMirror = id; }; 
+            CLASS = WWWJDIC; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dictionary = NSPopUpButton; mirror = NSPopUpButton; }; 
+            SUPERCLASS = LAWebServicePlugin; 
+        }
+    ); 
+    IBVersion = 1; 
+}

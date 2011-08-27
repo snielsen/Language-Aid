@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+# Copyright 2006-2011 Aoren LLC. All rights reserved.
+
+`open "/Library/Application Support/Language Aid/Language Aid.app"`;
+sleep(1);
+`open "/Library/PreferencePanes/Language Aid.prefPane"`;
+`osascript -e 'tell app "System Preferences" to display alert "First time pointers" message "To get Language Aid up and running you first need to:\n\n1. Enable a plugin by clicking on the checkbox to the left of its name.\n\n2. Assign a key or mouse combo to trigger it (make sure that it does not conflict with any other key combos in your system or else the trigger might not have any effect).\n\n3. Hover your mouse over some text such as the text in the preference pane and hit your configured lookup trigger." as informational'`;
+
+exit 0

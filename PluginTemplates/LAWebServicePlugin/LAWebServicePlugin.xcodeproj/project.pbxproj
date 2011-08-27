@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1DD17D0B4222F00039E56B /* «PROJECTNAME».nib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DD17C0B4222F00039E56B /* «PROJECTNAME».nib */; };
+		6C3796820B0C0AE500EE85EB /* «PROJECTNAME».m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3796810B0C0AE500EE85EB /* «PROJECTNAME».m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C1DD1770B4222E90039E56B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = "English.lproj/«PROJECTNAME».nib"; sourceTree = "<group>"; };
+		6C3796760B0C0AD400EE85EB /* «PROJECTNAME».laplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "«PROJECTNAME».laplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3796780B0C0AD400EE85EB /* «PROJECTNAME»-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "«PROJECTNAME»-Info.plist"; sourceTree = "<group>"; };
+		6C3796810B0C0AE500EE85EB /* «PROJECTNAME».m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "«PROJECTNAME».m"; sourceTree = "<group>"; };
+		6C3796850B0C0AED00EE85EB /* «PROJECTNAME».h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "«PROJECTNAME».h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3796740B0C0AD400EE85EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C277F7C0B0D5734009F905B /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6C3796810B0C0AE500EE85EB /* «PROJECTNAME».m */,
+				6C3796850B0C0AED00EE85EB /* «PROJECTNAME».h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		6C277F7D0B0D5745009F905B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C1DD17C0B4222F00039E56B /* «PROJECTNAME».nib */,
+				6C3796780B0C0AD400EE85EB /* «PROJECTNAME»-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6C3796670B0C0ACB00EE85EB = {
+			isa = PBXGroup;
+			children = (
+				6C277F7C0B0D5734009F905B /* Code */,
+				6C277F7D0B0D5745009F905B /* Resources */,
+				6C3796770B0C0AD400EE85EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C3796770B0C0AD400EE85EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C3796760B0C0AD400EE85EB /* «PROJECTNAME».laplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3796750B0C0AD400EE85EB /* «PROJECTNAME» */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3796790B0C0AD500EE85EB /* Build configuration list for PBXNativeTarget "«PROJECTNAME»" */;
+			buildPhases = (
+				6C3796720B0C0AD400EE85EB /* Resources */,
+				6C3796730B0C0AD400EE85EB /* Sources */,
+				6C3796740B0C0AD400EE85EB /* Frameworks */,
+				6C7A9ECB0B59D3C70092DDD1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "«PROJECTNAME»";
+			productName = "«PROJECTNAME»";
+			productReference = 6C3796760B0C0AD400EE85EB /* «PROJECTNAME».laplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C3796690B0C0ACB00EE85EB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6C37966A0B0C0ACB00EE85EB /* Build configuration list for PBXProject "LAWebServicePlugin" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 6C3796670B0C0ACB00EE85EB;
+			productRefGroup = 6C3796770B0C0AD400EE85EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C3796750B0C0AD400EE85EB /* «PROJECTNAME» */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3796720B0C0AD400EE85EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1DD17D0B4222F00039E56B /* «PROJECTNAME».nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C7A9ECB0B59D3C70092DDD1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R $BUILD_DIR/$CONFIGURATION/$PRODUCT_NAME.$WRAPPER_EXTENSION /Library/Application\\ Support/Language\\ Aid/PluginModules/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C3796730B0C0AD400EE85EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3796820B0C0AE500EE85EB /* «PROJECTNAME».m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C1DD17C0B4222F00039E56B /* «PROJECTNAME».nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C1DD1770B4222E90039E56B /* English */,
+			);
+			name = "«PROJECTNAME».nib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C37966B0B0C0ACB00EE85EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		6C37966C0B0C0ACB00EE85EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		6C37967A0B0C0AD500EE85EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUNDLE_LOADER = "/Library/Application Support/Language Aid/Language Aid.app/Contents/MacOS/Language Aid";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS_QUOTED_1)";
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"/Library/Application Support/Language Aid/\"";
+				INFOPLIST_FILE = "«PROJECTNAME»-Info.plist";
+				INSTALL_PATH = "\"/Library/Application Support/Language Aid/PluginModules\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "«PROJECTNAME»";
+				WRAPPER_EXTENSION = laplugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6C37967B0B0C0AD500EE85EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUNDLE_LOADER = "/Library/Application Support/Language Aid/Language Aid.app/Contents/MacOS/Language Aid";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS_QUOTED_1)";
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"/Library/Application Support/Language Aid/\"";
+				INFOPLIST_FILE = "«PROJECTNAME»-Info.plist";
+				INSTALL_PATH = "\"/Library/Application Support/Language Aid/PluginModules\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "«PROJECTNAME»";
+				WRAPPER_EXTENSION = laplugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C37966A0B0C0ACB00EE85EB /* Build configuration list for PBXProject "LAWebServicePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C37966B0B0C0ACB00EE85EB /* Debug */,
+				6C37966C0B0C0ACB00EE85EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3796790B0C0AD500EE85EB /* Build configuration list for PBXNativeTarget "«PROJECTNAME»" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C37967A0B0C0AD500EE85EB /* Debug */,
+				6C37967B0B0C0AD500EE85EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C3796690B0C0ACB00EE85EB /* Project object */;
+}

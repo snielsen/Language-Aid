@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {hitBack = id; hitForward = id; }; 
+            CLASS = IMDB; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {backButton = NSButton; forwardButton = NSButton; }; 
+            SUPERCLASS = LAWebServicePlugin; 
+        }, 
+        {CLASS = LAOtherPlugin; LANGUAGE = ObjC; SUPERCLASS = LAPlugin; }, 
+        {
+            CLASS = LAPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {UI = NSView; inspectorWindow = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = LAWebServicePlugin; LANGUAGE = ObjC; SUPERCLASS = LAPlugin; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rm -Rf "/Library/Application Support/Language Aid"
+rm -Rf "/Library/PreferencePanes/LanguageAid.prefPane"
+rm -Rf "/Library/PreferencePanes/Language Aid.prefPane"
+rm -Rf "/Library/Contextual Menu Items/LanguageAidCMI.plugin"
+rm -Rf "/Library/Application Support/Apple/Developer Tools/Project Templates/Language Aid"
+
+exit 0

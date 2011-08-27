@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installer-gui-script minSpecVersion='1'>
+    
+	<options hostArchitectures='ppc,i386'/>
+	<options customize = "never" rootVolumeOnly = "true"/>
+	
+	<welcome file="Welcome.rtf"/>
+	<license file="License.rtf"/>
+	<readme file="ReadMe.rtf"/>
+	<background file="background.tif" scaling="proportional" alignment='left'/>
+	
+	<choices-outline>
+        <line choice='manual'/>
+    </choices-outline>
+	
+	<choice id='manual'>
+		<pkg-ref id='manual' auth='Root' version='1.2'>.</pkg-ref>
+	</choice>
+	<choice id='manual' title='Language Aid'/>
+	
+    <volume-check script='volumeCheck()'/>
+
+    <script>
+    
+        function volumeCheck()
+        {
+			// must have an OS
+			if( system.files.fileExistsAtPath(my.target.mountpoint + "/System/Library/CoreServices/SystemVersion.plist") == false)
+			{
+				my.result.type = 'Fatal';
+				my.result.message = system.localizedString('ERROR_OS');
+				return false;
+			}
+            
+			// 10.4 only
+			if( system.compareVersions(my.target.systemVersion.ProductVersion, '10.4') == -1 )
+			{
+				my.result.type = 'Fatal';
+				my.result.message = system.localizedString('ERROR_OS');
+				return false;
+			}
+        }
+        
+    </script>
+
+</installer-gui-script>
+	

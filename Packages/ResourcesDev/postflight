@@ -1,0 +1,5 @@
+#!/bin/sh
+
+open "/Library/Application Support/Language Aid/Documentation/PluginAuthoring.html"
+
+exit 0

@@ -1,0 +1,1146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6C5F0ADE0A04091400BE1925 /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6C5F0AE90A04094300BE1925 /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6C5F0AE40A04092100BE1925 /* PBXTargetDependency */,
+				6C5F0AE60A04092500BE1925 /* PBXTargetDependency */,
+				6C72FA1D0C8A24F400E869AA /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6C011D0C0B44B1D200BE6730 /* badreg in Resources */ = {isa = PBXBuildFile; fileRef = 6C011D0B0B44B1D200BE6730 /* badreg */; };
+		6C0302300B13DDC80023E82A /* unsignedImage.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 6C03022F0B13DDC80023E82A /* unsignedImage.bmp */; };
+		6C03FC6F0B1379210023E82A /* aorenlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C03FC6E0B1379210023E82A /* aorenlogo.jpg */; };
+		6C03FC770B1379BF0023E82A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC116DB0A0D90B400F9A663 /* libcrypto.a */; };
+		6C0577680B59B2F300FE8896 /* GetPID.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C04B1D209C0FBBC0062E235 /* GetPID.mm */; };
+		6C0891EE09C8A722009C99C7 /* Input.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C0891EB09C8A722009C99C7 /* Input.mm */; };
+		6C0891EF09C8A722009C99C7 /* Timing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C0891ED09C8A722009C99C7 /* Timing.mm */; };
+		6C0891F309C8A746009C99C7 /* LanguageInspector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C0891F109C8A746009C99C7 /* LanguageInspector.mm */; };
+		6C1034610C5C20F2002A2B01 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC116DB0A0D90B400F9A663 /* libcrypto.a */; };
+		6C1E80F309D8D85E007D2D13 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD81A309C64327000C3919 /* WebKit.framework */; };
+		6C4ED36A09CA524C009ED018 /* Encoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C4ED36009CA5200009ED018 /* Encoding.mm */; };
+		6C5F0C840A045A4D00BE1925 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5F0C830A045A4D00BE1925 /* Security.framework */; };
+		6C639FFB0B5F2775006C369A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0CEBC309BE9FE800C0C286 /* Carbon.framework */; };
+		6C8EFD900D4EDD2600C799D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8EFD8F0D4EDD2600C799D3 /* QuartzCore.framework */; };
+		6C906F6E0D482A5300632A05 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDBF6010C865440008DE769 /* CoreFoundation.framework */; };
+		6C9E01810D4AC9FA00E098A2 /* HighlightView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E01800D4AC9FA00E098A2 /* HighlightView.mm */; };
+		6C9E018C0D4ACAFA00E098A2 /* TranslatorApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E018B0D4ACAFA00E098A2 /* TranslatorApp.mm */; };
+		6C9E01A00D4ACC3D00E098A2 /* LanguageAidService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E019F0D4ACC3D00E098A2 /* LanguageAidService.mm */; };
+		6C9E020C0D4AD2B300E098A2 /* NewModules.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E02080D4AD25600E098A2 /* NewModules.mm */; };
+		6C9E02260D4AD3A100E098A2 /* PluginModulesTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E02220D4AD34E00E098A2 /* PluginModulesTable.mm */; };
+		6C9E02330D4AD56200E098A2 /* TIDError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E02300D4AD54400E098A2 /* TIDError.mm */; };
+		6C9E023A0D4AD5D100E098A2 /* JustNumFormatter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E02390D4AD5D100E098A2 /* JustNumFormatter.mm */; };
+		6CB290240C8A3907009B1C0B /* GetPID.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C04B1D209C0FBBC0062E235 /* GetPID.mm */; };
+		6CB33A9A0A0DB165003D0315 /* libHIDUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB33A990A0DB165003D0315 /* libHIDUtilities.a */; };
+		6CB816E30C14F37A003C4B64 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB816E20C14F37A003C4B64 /* MainMenu.nib */; };
+		6CB816EF0C14F3A8003C4B64 /* LanguageInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB816ED0C14F3A8003C4B64 /* LanguageInspector.nib */; };
+		6CB816F70C14F3BE003C4B64 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB816F60C14F3BE003C4B64 /* Localizable.strings */; };
+		6CB817010C14F3DC003C4B64 /* Intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB817000C14F3DC003C4B64 /* Intro.html */; };
+		6CB817070C14F3ED003C4B64 /* FilterError.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB817060C14F3ED003C4B64 /* FilterError.html */; };
+		6CB8170D0C14F3FB003C4B64 /* RequestError.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB8170C0C14F3FB003C4B64 /* RequestError.html */; };
+		6CB817130C14F405003C4B64 /* ConnectError.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB817120C14F405003C4B64 /* ConnectError.html */; };
+		6CB817190C14F418003C4B64 /* LanguageAidPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB817180C14F418003C4B64 /* LanguageAidPref.nib */; };
+		6CB8171F0C14F426003C4B64 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB8171E0C14F426003C4B64 /* Localizable.strings */; };
+		6CB817250C14F436003C4B64 /* PrefConnectError.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB817240C14F436003C4B64 /* PrefConnectError.html */; };
+		6CB8172B0C14F445003C4B64 /* AorenConnectError.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CB8172A0C14F445003C4B64 /* AorenConnectError.html */; };
+		6CC119BF0A12F4C700F9A663 /* LanguageAidPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F506C040013D9D8001CA16C8 /* LanguageAidPref.tiff */; };
+		6CDBF5E60C865204008DE769 /* LanguageAidCMI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBF5E50C865204008DE769 /* LanguageAidCMI.mm */; };
+		6CDBF6080C865469008DE769 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0CEBC309BE9FE800C0C286 /* Carbon.framework */; };
+		6CDBF96D0C87A741008DE769 /* LAUserDefaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBF9250C87A042008DE769 /* LAUserDefaults.mm */; };
+		6CDBF97C0C87A842008DE769 /* LAUserDefaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBF9250C87A042008DE769 /* LAUserDefaults.mm */; };
+		6CDBF9DF0C87AAA7008DE769 /* LAUserDefaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBF9250C87A042008DE769 /* LAUserDefaults.mm */; };
+		6CE220740BA6425900B2A444 /* LAID.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CE220730BA6425900B2A444 /* LAID.icns */; };
+		6CE22A860CAA0F7700D1E615 /* RegistrationWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FDBAB0CA8A35D00EC0091 /* RegistrationWindow.mm */; };
+		6CF99B3A0AE5AB2600FECC76 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CF99B390AE5AB2600FECC76 /* main.mm */; };
+		6CFA4DE90B323A7F00CB3E2B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5F0C830A045A4D00BE1925 /* Security.framework */; };
+		6CFBE92B0B0C02BE00521967 /* LAPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBE9290B0C02BE00521967 /* LAPlugin.mm */; };
+		6CFBE92C0B0C02BE00521967 /* LAPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CFBE9290B0C02BE00521967 /* LAPlugin.mm */; };
+		6CFC52390B61ABB400F536A8 /* plugin.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC52380B61ABB400F536A8 /* plugin.icns */; };
+		6CFD809709C640C1000C3919 /* GetPID.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C04B1D209C0FBBC0062E235 /* GetPID.mm */; };
+		6CFD809809C640C2000C3919 /* LanguageAidPref.mm in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* LanguageAidPref.mm */; };
+		6CFD80A609C64109000C3919 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0CEBC309BE9FE800C0C286 /* Carbon.framework */; };
+		6CFD80A809C64111000C3919 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C167FFE841241C02AAC07 /* AppKit.framework */; };
+		6CFD80AA09C64115000C3919 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD7D7409C62F2E000C3919 /* IOKit.framework */; };
+		6CFD80AC09C6411C000C3919 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+		6CFD819B09C642F8000C3919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		6CFD819D09C642FE000C3919 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD7D7409C62F2E000C3919 /* IOKit.framework */; };
+		6CFD81A109C6430B000C3919 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C167FFE841241C02AAC07 /* AppKit.framework */; };
+		6CFD81A409C64327000C3919 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD81A309C64327000C3919 /* WebKit.framework */; };
+		6CFDFE600B02EA810032C5BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C5F0AE30A04092100BE1925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D202CE80486D31800D8A456;
+			remoteInfo = "LanguageAid Pref Pane";
+		};
+		6C5F0AE50A04092500BE1925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CFD7F6C09C63FEC000C3919;
+			remoteInfo = "Language Aid";
+		};
+		6C72FA1C0C8A24F400E869AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDBF5DB0C865180008DE769;
+			remoteInfo = LanguageAidCMI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		6C011B590B4489A200BE6730 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Resources_PrefPane/English.lproj/AorenConnectError.html; sourceTree = "<group>"; };
+		6C011D0B0B44B1D200BE6730 /* badreg */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = badreg; path = Resources_LanguageAid/badreg; sourceTree = "<group>"; };
+		6C03022F0B13DDC80023E82A /* unsignedImage.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = unsignedImage.bmp; path = Resources_PrefPane/unsignedImage.bmp; sourceTree = "<group>"; };
+		6C03FC6E0B1379210023E82A /* aorenlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aorenlogo.jpg; path = Resources_PrefPane/aorenlogo.jpg; sourceTree = "<group>"; };
+		6C04B1D209C0FBBC0062E235 /* GetPID.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = GetPID.mm; path = Source/GetPID.mm; sourceTree = "<group>"; };
+		6C04B1D309C0FBBC0062E235 /* GetPID.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GetPID.h; path = Source/GetPID.h; sourceTree = "<group>"; };
+		6C0891EA09C8A722009C99C7 /* Input.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Input.h; path = Source/Input.h; sourceTree = "<group>"; };
+		6C0891EB09C8A722009C99C7 /* Input.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = Input.mm; path = Source/Input.mm; sourceTree = "<group>"; };
+		6C0891EC09C8A722009C99C7 /* Timing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Timing.h; path = Source/Timing.h; sourceTree = "<group>"; };
+		6C0891ED09C8A722009C99C7 /* Timing.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = Timing.mm; path = Source/Timing.mm; sourceTree = "<group>"; };
+		6C0891F009C8A746009C99C7 /* LanguageInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LanguageInspector.h; path = Source/LanguageInspector.h; sourceTree = "<group>"; };
+		6C0891F109C8A746009C99C7 /* LanguageInspector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LanguageInspector.mm; path = Source/LanguageInspector.mm; sourceTree = "<group>"; };
+		6C0CEBC309BE9FE800C0C286 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		6C22F9BE09D4511F00C8F6B2 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Resources_LanguageAid/English.lproj/ConnectError.html; sourceTree = "<group>"; };
+		6C28672809F85768002596B3 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Resources_PrefPane/English.lproj/PrefConnectError.html; sourceTree = "<group>"; };
+		6C4CEE150C14E7D2005B3DA4 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = Libraries/libcurl.a; sourceTree = "<group>"; };
+		6C4CEE160C14E7D8005B3DA4 /* libsqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsqlite3.a; path = Libraries/libsqlite3.a; sourceTree = "<group>"; };
+		6C4ED36009CA5200009ED018 /* Encoding.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Encoding.mm; path = Source/Encoding.mm; sourceTree = "<group>"; };
+		6C4ED36509CA5225009ED018 /* Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encoding.h; path = Source/Encoding.h; sourceTree = "<group>"; };
+		6C5F0C830A045A4D00BE1925 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		6C6FDBAB0CA8A35D00EC0091 /* RegistrationWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RegistrationWindow.mm; path = Source/RegistrationWindow.mm; sourceTree = "<group>"; };
+		6C6FDBAC0CA8A37C00EC0091 /* RegistrationWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationWindow.h; path = Source/RegistrationWindow.h; sourceTree = "<group>"; };
+		6C7F43A30A10629000CB3507 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = Resources_LanguageAid/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6C7F43A60A1062C200CB3507 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources_PrefPane/English.lproj/LanguageAidPref.nib; sourceTree = "<group>"; };
+		6C7F43A90A1062CD00CB3507 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = Resources_PrefPane/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6C7F43B40A10630F00CB3507 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources_LanguageAid/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		6C7F44280A122D3F00CB3507 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Resources_LanguageAid/English.lproj/Intro.html; sourceTree = "<group>"; };
+		6C8EFD8F0D4EDD2600C799D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		6C9E01800D4AC9FA00E098A2 /* HighlightView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HighlightView.mm; path = Source/HighlightView.mm; sourceTree = "<group>"; };
+		6C9E01820D4ACA0600E098A2 /* HighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighlightView.h; path = Source/HighlightView.h; sourceTree = "<group>"; };
+		6C9E018B0D4ACAFA00E098A2 /* TranslatorApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TranslatorApp.mm; path = Source/TranslatorApp.mm; sourceTree = "<group>"; };
+		6C9E018D0D4ACB0700E098A2 /* TranslatorApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TranslatorApp.h; path = Source/TranslatorApp.h; sourceTree = "<group>"; };
+		6C9E019F0D4ACC3D00E098A2 /* LanguageAidService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LanguageAidService.mm; path = Source/LanguageAidService.mm; sourceTree = "<group>"; };
+		6C9E01A10D4ACC4900E098A2 /* LanguageAidService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanguageAidService.h; path = Source/LanguageAidService.h; sourceTree = "<group>"; };
+		6C9E02080D4AD25600E098A2 /* NewModules.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NewModules.mm; path = Source/NewModules.mm; sourceTree = "<group>"; };
+		6C9E020A0D4AD26100E098A2 /* NewModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewModules.h; path = Source/NewModules.h; sourceTree = "<group>"; };
+		6C9E02220D4AD34E00E098A2 /* PluginModulesTable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PluginModulesTable.mm; path = Source/PluginModulesTable.mm; sourceTree = "<group>"; };
+		6C9E02240D4AD36300E098A2 /* PluginModulesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginModulesTable.h; path = Source/PluginModulesTable.h; sourceTree = "<group>"; };
+		6C9E02300D4AD54400E098A2 /* TIDError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TIDError.mm; path = Source/TIDError.mm; sourceTree = "<group>"; };
+		6C9E02320D4AD55500E098A2 /* TIDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIDError.h; path = Source/TIDError.h; sourceTree = "<group>"; };
+		6C9E02390D4AD5D100E098A2 /* JustNumFormatter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JustNumFormatter.mm; path = Source/JustNumFormatter.mm; sourceTree = "<group>"; };
+		6C9E023B0D4AD5E800E098A2 /* JustNumFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JustNumFormatter.h; path = Source/JustNumFormatter.h; sourceTree = "<group>"; };
+		6CA0BF050B45A14700BCD5F5 /* unexported.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = unexported.exp; sourceTree = "<group>"; };
+		6CB33A990A0DB165003D0315 /* libHIDUtilities.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHIDUtilities.a; path = Libraries/libHIDUtilities.a; sourceTree = "<group>"; };
+		6CB816E40C14F383003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		6CB816EE0C14F3A8003C4B64 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources_LanguageAid/English.lproj/LanguageInspector.nib; sourceTree = "<group>"; };
+		6CB816F20C14F3AF003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/LanguageInspector.nib; sourceTree = "<group>"; };
+		6CB816F80C14F3C5003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CB817020C14F3E0003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/Intro.html; sourceTree = "<group>"; };
+		6CB817080C14F3F2003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/FilterError.html; sourceTree = "<group>"; };
+		6CB8170E0C14F3FE003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/RequestError.html; sourceTree = "<group>"; };
+		6CB817140C14F40A003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Resources_LanguageAid/Japanese.lproj/ConnectError.html; sourceTree = "<group>"; };
+		6CB8171A0C14F41D003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Resources_PrefPane/Japanese.lproj/LanguageAidPref.nib; sourceTree = "<group>"; };
+		6CB817200C14F42C003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Resources_PrefPane/Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6CB817260C14F43C003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Resources_PrefPane/Japanese.lproj/PrefConnectError.html; sourceTree = "<group>"; };
+		6CB8172C0C14F44D003C4B64 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Resources_PrefPane/Japanese.lproj/AorenConnectError.html; sourceTree = "<group>"; };
+		6CB994931404A25400F11B25 /* LanguageAid.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageAid.pch; sourceTree = "<group>"; };
+		6CC116DB0A0D90B400F9A663 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/libcrypto.a; sourceTree = "<group>"; };
+		6CDBF5DC0C865180008DE769 /* LanguageAidCMI.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageAidCMI.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDBF5DD0C865180008DE769 /* LanguageAidCMI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LanguageAidCMI-Info.plist"; path = "Resources_CMI/LanguageAidCMI-Info.plist"; sourceTree = "<group>"; };
+		6CDBF5E50C865204008DE769 /* LanguageAidCMI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LanguageAidCMI.mm; path = Source/LanguageAidCMI.mm; sourceTree = "<group>"; };
+		6CDBF6010C865440008DE769 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		6CDBF6030C86544F008DE769 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		6CDBF9250C87A042008DE769 /* LAUserDefaults.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LAUserDefaults.mm; path = Source/LAUserDefaults.mm; sourceTree = "<group>"; };
+		6CDBF9270C87A04C008DE769 /* LAUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LAUserDefaults.h; path = Source/LAUserDefaults.h; sourceTree = "<group>"; };
+		6CDBF9E10C87AAD1008DE769 /* LanguageAidCMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanguageAidCMI.h; path = Source/LanguageAidCMI.h; sourceTree = "<group>"; };
+		6CE220730BA6425900B2A444 /* LAID.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = LAID.icns; path = Resources_LanguageAid/LAID.icns; sourceTree = "<group>"; };
+		6CF7E0F709C645BA00B505EE /* PaneInfo.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = PaneInfo.plist; path = Resources_PrefPane/PaneInfo.plist; sourceTree = "<group>"; };
+		6CF99B390AE5AB2600FECC76 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = Source/main.mm; sourceTree = "<group>"; };
+		6CFA70E60B3390FA00F2760E /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Resources_LanguageAid/English.lproj/RequestError.html; sourceTree = "<group>"; };
+		6CFA70E90B33910000F2760E /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Resources_LanguageAid/English.lproj/FilterError.html; sourceTree = "<group>"; };
+		6CFBE9280B0C02BE00521967 /* LAPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LAPlugin.h; path = Source/LAPlugin.h; sourceTree = "<group>"; };
+		6CFBE9290B0C02BE00521967 /* LAPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = LAPlugin.mm; path = Source/LAPlugin.mm; sourceTree = "<group>"; };
+		6CFC52380B61ABB400F536A8 /* plugin.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = plugin.icns; path = Resources_LanguageAid/plugin.icns; sourceTree = "<group>"; };
+		6CFD7D7409C62F2E000C3919 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		6CFD7F6D09C63FEC000C3919 /* Language Aid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Language Aid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFD7F6F09C63FEC000C3919 /* Language Aid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Language Aid-Info.plist"; path = "Resources_LanguageAid/Language Aid-Info.plist"; sourceTree = "<group>"; };
+		6CFD81A309C64327000C3919 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		6CFEA9720ADF1B7B00B8EDAC /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = Source/main.h; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* Language Aid.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Language Aid.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* LanguageAidPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanguageAidPref.h; path = Source/LanguageAidPref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* LanguageAidPref.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LanguageAidPref.mm; path = Source/LanguageAidPref.mm; sourceTree = "<group>"; };
+		F506C040013D9D8001CA16C8 /* LanguageAidPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = LanguageAidPref.tiff; path = Resources_PrefPane/LanguageAidPref.tiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CDBF5DA0C865180008DE769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDBF6080C865469008DE769 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFD7F6B09C63FEC000C3919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFDFE600B02EA810032C5BB /* Cocoa.framework in Frameworks */,
+				6CFD819B09C642F8000C3919 /* Foundation.framework in Frameworks */,
+				6CFD819D09C642FE000C3919 /* IOKit.framework in Frameworks */,
+				6CFD81A109C6430B000C3919 /* AppKit.framework in Frameworks */,
+				6CFD81A409C64327000C3919 /* WebKit.framework in Frameworks */,
+				6CB33A9A0A0DB165003D0315 /* libHIDUtilities.a in Frameworks */,
+				6CFA4DE90B323A7F00CB3E2B /* Security.framework in Frameworks */,
+				6C639FFB0B5F2775006C369A /* Carbon.framework in Frameworks */,
+				6C1034610C5C20F2002A2B01 /* libcrypto.a in Frameworks */,
+				6C906F6E0D482A5300632A05 /* CoreFoundation.framework in Frameworks */,
+				6C8EFD900D4EDD2600C799D3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFD80A609C64109000C3919 /* Carbon.framework in Frameworks */,
+				6CFD80A809C64111000C3919 /* AppKit.framework in Frameworks */,
+				6CFD80AA09C64115000C3919 /* IOKit.framework in Frameworks */,
+				6CFD80AC09C6411C000C3919 /* PreferencePanes.framework in Frameworks */,
+				6C1E80F309D8D85E007D2D13 /* WebKit.framework in Frameworks */,
+				6C5F0C840A045A4D00BE1925 /* Security.framework in Frameworks */,
+				6C03FC770B1379BF0023E82A /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* LangaugeAid */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD800F09C64033000C3919 /* Shared */,
+				6CFD801109C64041000C3919 /* Application */,
+				6CFD801009C64039000C3919 /* Pref Pane */,
+				6CDBF5E20C8651B9008DE769 /* Contextual Menu Item */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = LangaugeAid;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD809609C640B7000C3919 /* Libraries */,
+				1058C7ACFEA557BF11CA2CBB /* Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CF7E0F709C645BA00B505EE /* PaneInfo.plist */,
+				F506C040013D9D8001CA16C8 /* LanguageAidPref.tiff */,
+				6C03FC6E0B1379210023E82A /* aorenlogo.jpg */,
+				6C03022F0B13DDC80023E82A /* unsignedImage.bmp */,
+				6CB817180C14F418003C4B64 /* LanguageAidPref.nib */,
+				6CB8171E0C14F426003C4B64 /* Localizable.strings */,
+				6CB817240C14F436003C4B64 /* PrefConnectError.html */,
+				6CB8172A0C14F445003C4B64 /* AorenConnectError.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EFD8F0D4EDD2600C799D3 /* QuartzCore.framework */,
+				6CDBF6030C86544F008DE769 /* ApplicationServices.framework */,
+				6CDBF6010C865440008DE769 /* CoreFoundation.framework */,
+				6C5F0C830A045A4D00BE1925 /* Security.framework */,
+				6CFD81A309C64327000C3919 /* WebKit.framework */,
+				6CFD7D7409C62F2E000C3919 /* IOKit.framework */,
+				6C0CEBC309BE9FE800C0C286 /* Carbon.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD7F6D09C63FEC000C3919 /* Language Aid.app */,
+				8D202CF80486D31800D8A456 /* Language Aid.prefPane */,
+				6CDBF5DC0C865180008DE769 /* LanguageAidCMI.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CDBF5E20C8651B9008DE769 /* Contextual Menu Item */ = {
+			isa = PBXGroup;
+			children = (
+				6CDBF5E30C8651CF008DE769 /* Code */,
+				6CDBF5E40C8651D6008DE769 /* Resources */,
+			);
+			name = "Contextual Menu Item";
+			sourceTree = "<group>";
+		};
+		6CDBF5E30C8651CF008DE769 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6CDBF5E50C865204008DE769 /* LanguageAidCMI.mm */,
+				6CDBF9E10C87AAD1008DE769 /* LanguageAidCMI.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		6CDBF5E40C8651D6008DE769 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CDBF5DD0C865180008DE769 /* LanguageAidCMI-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CF7E10309C6461900B505EE /* Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				6C0891EB09C8A722009C99C7 /* Input.mm */,
+				6C0891EA09C8A722009C99C7 /* Input.h */,
+				6C0891ED09C8A722009C99C7 /* Timing.mm */,
+				6C0891EC09C8A722009C99C7 /* Timing.h */,
+			);
+			name = Interaction;
+			sourceTree = "<group>";
+		};
+		6CF7E10509C6465300B505EE /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6C4ED36009CA5200009ED018 /* Encoding.mm */,
+				6C4ED36509CA5225009ED018 /* Encoding.h */,
+				6C04B1D209C0FBBC0062E235 /* GetPID.mm */,
+				6C04B1D309C0FBBC0062E235 /* GetPID.h */,
+				6CFBE9290B0C02BE00521967 /* LAPlugin.mm */,
+				6CFBE9280B0C02BE00521967 /* LAPlugin.h */,
+				6CDBF9250C87A042008DE769 /* LAUserDefaults.mm */,
+				6CDBF9270C87A04C008DE769 /* LAUserDefaults.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		6CFD800F09C64033000C3919 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6CF7E10509C6465300B505EE /* Code */,
+				6CB994931404A25400F11B25 /* LanguageAid.pch */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		6CFD801009C64039000C3919 /* Pref Pane */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD801609C6407D000C3919 /* Code */,
+				089C167CFE841241C02AAC07 /* Resources */,
+			);
+			name = "Pref Pane";
+			sourceTree = "<group>";
+		};
+		6CFD801109C64041000C3919 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD817D09C641D0000C3919 /* Code */,
+				6CFD817E09C641DC000C3919 /* Resources */,
+				6CA0BF050B45A14700BCD5F5 /* unexported.exp */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		6CFD801609C6407D000C3919 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6C9E02300D4AD54400E098A2 /* TIDError.mm */,
+				6C9E02320D4AD55500E098A2 /* TIDError.h */,
+				6C9E02390D4AD5D100E098A2 /* JustNumFormatter.mm */,
+				6C9E023B0D4AD5E800E098A2 /* JustNumFormatter.h */,
+				6C9E02080D4AD25600E098A2 /* NewModules.mm */,
+				6C9E020A0D4AD26100E098A2 /* NewModules.h */,
+				6C9E02220D4AD34E00E098A2 /* PluginModulesTable.mm */,
+				6C9E02240D4AD36300E098A2 /* PluginModulesTable.h */,
+				6C6FDBAB0CA8A35D00EC0091 /* RegistrationWindow.mm */,
+				6C6FDBAC0CA8A37C00EC0091 /* RegistrationWindow.h */,
+				F506C03D013D9D7901CA16C8 /* LanguageAidPref.mm */,
+				F506C03C013D9D7901CA16C8 /* LanguageAidPref.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		6CFD809609C640B7000C3919 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6CB33A990A0DB165003D0315 /* libHIDUtilities.a */,
+				6CC116DB0A0D90B400F9A663 /* libcrypto.a */,
+				6C4CEE150C14E7D2005B3DA4 /* libcurl.a */,
+				6C4CEE160C14E7D8005B3DA4 /* libsqlite3.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6CFD817D09C641D0000C3919 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6CF7E10309C6461900B505EE /* Interaction */,
+				6C9E01800D4AC9FA00E098A2 /* HighlightView.mm */,
+				6C9E01820D4ACA0600E098A2 /* HighlightView.h */,
+				6C0891F109C8A746009C99C7 /* LanguageInspector.mm */,
+				6C0891F009C8A746009C99C7 /* LanguageInspector.h */,
+				6C9E019F0D4ACC3D00E098A2 /* LanguageAidService.mm */,
+				6C9E01A10D4ACC4900E098A2 /* LanguageAidService.h */,
+				6C9E018B0D4ACAFA00E098A2 /* TranslatorApp.mm */,
+				6C9E018D0D4ACB0700E098A2 /* TranslatorApp.h */,
+				6CF99B390AE5AB2600FECC76 /* main.mm */,
+				6CFEA9720ADF1B7B00B8EDAC /* main.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		6CFD817E09C641DC000C3919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CE220730BA6425900B2A444 /* LAID.icns */,
+				6CFC52380B61ABB400F536A8 /* plugin.icns */,
+				6C011D0B0B44B1D200BE6730 /* badreg */,
+				6CFD7F6F09C63FEC000C3919 /* Language Aid-Info.plist */,
+				6CB816ED0C14F3A8003C4B64 /* LanguageInspector.nib */,
+				6CB816E20C14F37A003C4B64 /* MainMenu.nib */,
+				6CB816F60C14F3BE003C4B64 /* Localizable.strings */,
+				6CB817000C14F3DC003C4B64 /* Intro.html */,
+				6CB817060C14F3ED003C4B64 /* FilterError.html */,
+				6CB8170C0C14F3FB003C4B64 /* RequestError.html */,
+				6CB817120C14F405003C4B64 /* ConnectError.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CDBF5DB0C865180008DE769 /* LanguageAidCMI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDBF5DE0C865181008DE769 /* Build configuration list for PBXNativeTarget "LanguageAidCMI" */;
+			buildPhases = (
+				6CDBF5D80C865180008DE769 /* Resources */,
+				6CDBF5D90C865180008DE769 /* Sources */,
+				6CDBF5DA0C865180008DE769 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageAidCMI;
+			productName = LanguageAidCMI;
+			productReference = 6CDBF5DC0C865180008DE769 /* LanguageAidCMI.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6CFD7F6C09C63FEC000C3919 /* Language Aid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFD7F7009C63FEC000C3919 /* Build configuration list for PBXNativeTarget "Language Aid" */;
+			buildPhases = (
+				6CFD7F6909C63FEC000C3919 /* Resources */,
+				6CFD7F6A09C63FEC000C3919 /* Sources */,
+				6CFD7F6B09C63FEC000C3919 /* Frameworks */,
+				6CF7E1F109C7541500B505EE /* Copy app */,
+				6C44C7C80B0D52FA0058B744 /* Strip and export headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Language Aid";
+			productName = "Language Aid";
+			productReference = 6CFD7F6D09C63FEC000C3919 /* Language Aid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D202CE80486D31800D8A456 /* LanguageAid Pref Pane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "LanguageAid Pref Pane" */;
+			buildPhases = (
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				6C277F590B0D564C009F905B /* Strip and export header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LanguageAid Pref Pane";
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = LangaugeAid;
+			productReference = 8D202CF80486D31800D8A456 /* Language Aid.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "LanguageAid" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* LangaugeAid */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CFD7F6C09C63FEC000C3919 /* Language Aid */,
+				8D202CE80486D31800D8A456 /* LanguageAid Pref Pane */,
+				6CDBF5DB0C865180008DE769 /* LanguageAidCMI */,
+				6C5F0ADE0A04091400BE1925 /* all */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CDBF5D80C865180008DE769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFD7F6909C63FEC000C3919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB816E30C14F37A003C4B64 /* MainMenu.nib in Resources */,
+				6CB816F70C14F3BE003C4B64 /* Localizable.strings in Resources */,
+				6CB817010C14F3DC003C4B64 /* Intro.html in Resources */,
+				6CB817130C14F405003C4B64 /* ConnectError.html in Resources */,
+				6CB8170D0C14F3FB003C4B64 /* RequestError.html in Resources */,
+				6CB817070C14F3ED003C4B64 /* FilterError.html in Resources */,
+				6C011D0C0B44B1D200BE6730 /* badreg in Resources */,
+				6CFC52390B61ABB400F536A8 /* plugin.icns in Resources */,
+				6CE220740BA6425900B2A444 /* LAID.icns in Resources */,
+				6CB816EF0C14F3A8003C4B64 /* LanguageInspector.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB817250C14F436003C4B64 /* PrefConnectError.html in Resources */,
+				6CB817190C14F418003C4B64 /* LanguageAidPref.nib in Resources */,
+				6CB8171F0C14F426003C4B64 /* Localizable.strings in Resources */,
+				6CC119BF0A12F4C700F9A663 /* LanguageAidPref.tiff in Resources */,
+				6C03FC6F0B1379210023E82A /* aorenlogo.jpg in Resources */,
+				6C0302300B13DDC80023E82A /* unsignedImage.bmp in Resources */,
+				6CB8172B0C14F445003C4B64 /* AorenConnectError.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C277F590B0D564C009F905B /* Strip and export header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip and export header";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Scripts/clientstrip.pl Source/LAPlugin.h";
+		};
+		6C44C7C80B0D52FA0058B744 /* Strip and export headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip and export headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Scripts/clientstrip.pl Source/LAPlugin.h\nScripts/clientstrip.pl Source/LAUserDefaults.h";
+		};
+		6CF7E1F109C7541500B505EE /* Copy app */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy app";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -Rf /Library/Application\\ Support/Language\\ Aid/Language\\ Aid.app\ncp -R \"$BUILD_DIR/$CONFIGURATION\"/Language\\ Aid.app /Library/Application\\ Support/Language\\ Aid/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CDBF5D90C865180008DE769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDBF5E60C865204008DE769 /* LanguageAidCMI.mm in Sources */,
+				6CDBF9DF0C87AAA7008DE769 /* LAUserDefaults.mm in Sources */,
+				6CB290240C8A3907009B1C0B /* GetPID.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFD7F6A09C63FEC000C3919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0891EE09C8A722009C99C7 /* Input.mm in Sources */,
+				6C0891EF09C8A722009C99C7 /* Timing.mm in Sources */,
+				6C0891F309C8A746009C99C7 /* LanguageInspector.mm in Sources */,
+				6CF99B3A0AE5AB2600FECC76 /* main.mm in Sources */,
+				6CFBE92B0B0C02BE00521967 /* LAPlugin.mm in Sources */,
+				6C0577680B59B2F300FE8896 /* GetPID.mm in Sources */,
+				6CDBF96D0C87A741008DE769 /* LAUserDefaults.mm in Sources */,
+				6C9E01810D4AC9FA00E098A2 /* HighlightView.mm in Sources */,
+				6C9E018C0D4ACAFA00E098A2 /* TranslatorApp.mm in Sources */,
+				6C9E01A00D4ACC3D00E098A2 /* LanguageAidService.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFD809709C640C1000C3919 /* GetPID.mm in Sources */,
+				6CFD809809C640C2000C3919 /* LanguageAidPref.mm in Sources */,
+				6C4ED36A09CA524C009ED018 /* Encoding.mm in Sources */,
+				6CFBE92C0B0C02BE00521967 /* LAPlugin.mm in Sources */,
+				6CDBF97C0C87A842008DE769 /* LAUserDefaults.mm in Sources */,
+				6CE22A860CAA0F7700D1E615 /* RegistrationWindow.mm in Sources */,
+				6C9E020C0D4AD2B300E098A2 /* NewModules.mm in Sources */,
+				6C9E02260D4AD3A100E098A2 /* PluginModulesTable.mm in Sources */,
+				6C9E02330D4AD56200E098A2 /* TIDError.mm in Sources */,
+				6C9E023A0D4AD5D100E098A2 /* JustNumFormatter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C5F0AE40A04092100BE1925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D202CE80486D31800D8A456 /* LanguageAid Pref Pane */;
+			targetProxy = 6C5F0AE30A04092100BE1925 /* PBXContainerItemProxy */;
+		};
+		6C5F0AE60A04092500BE1925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CFD7F6C09C63FEC000C3919 /* Language Aid */;
+			targetProxy = 6C5F0AE50A04092500BE1925 /* PBXContainerItemProxy */;
+		};
+		6C72FA1D0C8A24F400E869AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CDBF5DB0C865180008DE769 /* LanguageAidCMI */;
+			targetProxy = 6C72FA1C0C8A24F400E869AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CB816E20C14F37A003C4B64 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7F43B40A10630F00CB3507 /* English */,
+				6CB816E40C14F383003C4B64 /* Japanese */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		6CB816ED0C14F3A8003C4B64 /* LanguageInspector.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB816EE0C14F3A8003C4B64 /* English */,
+				6CB816F20C14F3AF003C4B64 /* Japanese */,
+			);
+			name = LanguageInspector.nib;
+			sourceTree = "<group>";
+		};
+		6CB816F60C14F3BE003C4B64 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7F43A30A10629000CB3507 /* English */,
+				6CB816F80C14F3C5003C4B64 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6CB817000C14F3DC003C4B64 /* Intro.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7F44280A122D3F00CB3507 /* English */,
+				6CB817020C14F3E0003C4B64 /* Japanese */,
+			);
+			name = Intro.html;
+			sourceTree = "<group>";
+		};
+		6CB817060C14F3ED003C4B64 /* FilterError.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFA70E90B33910000F2760E /* English */,
+				6CB817080C14F3F2003C4B64 /* Japanese */,
+			);
+			name = FilterError.html;
+			sourceTree = "<group>";
+		};
+		6CB8170C0C14F3FB003C4B64 /* RequestError.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CFA70E60B3390FA00F2760E /* English */,
+				6CB8170E0C14F3FE003C4B64 /* Japanese */,
+			);
+			name = RequestError.html;
+			sourceTree = "<group>";
+		};
+		6CB817120C14F405003C4B64 /* ConnectError.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C22F9BE09D4511F00C8F6B2 /* English */,
+				6CB817140C14F40A003C4B64 /* Japanese */,
+			);
+			name = ConnectError.html;
+			sourceTree = "<group>";
+		};
+		6CB817180C14F418003C4B64 /* LanguageAidPref.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7F43A60A1062C200CB3507 /* English */,
+				6CB8171A0C14F41D003C4B64 /* Japanese */,
+			);
+			name = LanguageAidPref.nib;
+			sourceTree = "<group>";
+		};
+		6CB8171E0C14F426003C4B64 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7F43A90A1062CD00CB3507 /* English */,
+				6CB817200C14F42C003C4B64 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6CB817240C14F436003C4B64 /* PrefConnectError.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C28672809F85768002596B3 /* English */,
+				6CB817260C14F43C003C4B64 /* Japanese */,
+			);
+			name = PrefConnectError.html;
+			sourceTree = "<group>";
+		};
+		6CB8172A0C14F445003C4B64 /* AorenConnectError.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C011B590B4489A200BE6730 /* English */,
+				6CB8172C0C14F44D003C4B64 /* Japanese */,
+			);
+			name = AorenConnectError.html;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LanguageAid.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					LAINTERNAL,
+					LAPREFPANE,
+				);
+				INFOPLIST_FILE = Resources_PrefPane/PaneInfo.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/Libraries\"";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Language Aid";
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LanguageAid.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					RELEASE,
+					LAINTERNAL,
+					LAPREFPANE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Resources_PrefPane/PaneInfo.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/Libraries\"";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Language Aid";
+				STRIPFLAGS = "-x -S";
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+		6C5F0AEA0A04094300BE1925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = all;
+			};
+			name = Debug;
+		};
+		6C5F0AEB0A04094300BE1925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = all;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6CDBF5DF0C865181008DE769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LanguageAid.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					LAINTERNAL,
+				);
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources_CMI/LanguageAidCMI-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LanguageAidCMI;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		6CDBF5E00C865181008DE769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LanguageAid.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					RELEASE,
+					LAINTERNAL,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources_CMI/LanguageAidCMI-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LanguageAidCMI;
+				STRIPFLAGS = "-x -S";
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6CFD7F7109C63FEC000C3919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LanguageAid.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					LAINTERNAL,
+					LAAPP,
+				);
+				GCC_REUSE_STRINGS = NO;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS_QUOTED_1)";
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/Libraries/HID\\ Utilities\"";
+				INFOPLIST_FILE = "Resources_LanguageAid/Language Aid-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(SRCROOT)/Libraries",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-search_paths_first";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Language Aid";
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		6CFD7F7209C63FEC000C3919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks\"";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_SYMBOL_SEPARATION = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LanguageAid.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					RELEASE,
+					LAINTERNAL,
+					LAAPP,
+				);
+				GCC_REUSE_STRINGS = NO;
+				GCC_THREADSAFE_STATICS = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS_QUOTED_1)";
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/Libraries/HID\\ Utilities\"";
+				INFOPLIST_FILE = "Resources_LanguageAid/Language Aid-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(SRCROOT)/Libraries",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/Deadlock_LanguageAid/lib/real\"";
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-search_paths_first";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Language Aid";
+				SEPARATE_STRIP = NO;
+				SEPARATE_SYMBOL_EDIT = NO;
+				STRIPFLAGS = "-x -S";
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				UNEXPORTED_SYMBOLS_FILE = unexported.exp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "LanguageAid Pref Pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "LanguageAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C5F0AE90A04094300BE1925 /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5F0AEA0A04094300BE1925 /* Debug */,
+				6C5F0AEB0A04094300BE1925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDBF5DE0C865181008DE769 /* Build configuration list for PBXNativeTarget "LanguageAidCMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDBF5DF0C865181008DE769 /* Debug */,
+				6CDBF5E00C865181008DE769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CFD7F7009C63FEC000C3919 /* Build configuration list for PBXNativeTarget "Language Aid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CFD7F7109C63FEC000C3919 /* Debug */,
+				6CFD7F7209C63FEC000C3919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

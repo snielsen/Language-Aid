@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+# Copyright 2006-2011 Aoren LLC. All rights reserved.
+
+system ("/usr/bin/killall","-dc","Language Aid");
+if( !$? ){ `osascript -e 'tell application "Language Aid" to quit'`; }
+
+system ("/usr/bin/killall","-dc","System Preferences");
+if( !$? ){ `osascript -e 'tell application "System Preferences" to quit'`; }
+	
+exit 0

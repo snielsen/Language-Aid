@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This makes a LAOtherPlugin project.  This is for lookups that do not need to use a web service like a disk database lookup.</string>
+	<key>FilesToMacroExpand</key>
+	<array>
+		<string>«PROJECTNAME»-Info.plist</string>
+		<string>«PROJECTNAME».h</string>
+		<string>«PROJECTNAME».m</string>
+		<string>English.lproj/«PROJECTNAME».nib/classes.nib</string>
+		<string>English.lproj/«PROJECTNAME».nib/info.nib</string>
+		<string>English.lproj/«PROJECTNAME».nib/keyedobjects.nib</string>
+	</array>
+	<key>FilesToRename</key>
+	<dict>
+		<key>English.lproj/main.nib</key>
+		<string>English.lproj/«PROJECTNAME».nib</string>
+		<key>Info.plist</key>
+		<string>«PROJECTNAME»-Info.plist</string>
+		<key>main.h</key>
+		<string>«PROJECTNAME».h</string>
+		<key>main.m</key>
+		<string>«PROJECTNAME».m</string>
+	</dict>
+</dict>
+</plist>

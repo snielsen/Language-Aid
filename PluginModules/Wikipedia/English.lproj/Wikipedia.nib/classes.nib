@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LAOtherPlugin; LANGUAGE = ObjC; SUPERCLASS = LAPlugin; }, 
+        {
+            CLASS = LAPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {UI = NSView; inspectorWindow = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = LAWebServicePlugin; LANGUAGE = ObjC; SUPERCLASS = LAPlugin; }, 
+        {
+            ACTIONS = {goAction = id; hitBack = id; hitForward = id; languageChange = id; }; 
+            CLASS = Wikipedia; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backButton = NSButton; 
+                forwardButton = NSButton; 
+                goButton = NSButton; 
+                language = NSPopUpButton; 
+                searchBox = NSTextField; 
+            }; 
+            SUPERCLASS = LAWebServicePlugin; 
+        }
+    ); 
+    IBVersion = 1; 
+}
